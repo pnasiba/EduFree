@@ -1,18 +1,42 @@
 import { Header, Footer } from "@components";
 import { MainSection, Container } from "@containers";
+import introImage from "@images/intro-bg.png";
 
 const App = () => {
   return (
     <>
       <Header />
 
-        <MainSection>
-          <section className="intro">
-            <Container>
-              <h1>Home Page</h1>
-            </Container>
-          </section>
-        </MainSection>
+      <MainSection>
+        <section className="intro pt-[180px] bg-[#1C1E53] pb-[116px]">
+          <Container>
+            <div className="intro__wrapper flex items-start gap-[120px]">
+              <div>
+                <h1 className="mb-[32px] w-[595px] text-[42px] text-white font-semibold leading-[160%]">
+                  Bangun dan Wujudkan Cita Bersama EDUFREE
+                </h1>
+                <p className="w-[597px] text-white mb-[62px]">
+                  EDUFREE adalah sebuah layanan kursus dan pelatihan gratis
+                  secara online yang bertujuan untuk membantu kamu meraih cita
+                  di bidang teknologi.
+                </p>
+                <div className="flex gap-[35px] items-center">
+                  <button className="py-[15px] px-[43px] bg-[#FCD980] hover:bg-[#fbca4e] duration-200 text-[#282938] rounded-[5px] font-medium">
+                    Lihat Kursus
+                  </button>
+                  <span className="text-white flex gap-[8px] cursor-pointer">
+                    <a href="#">Lihat Alur Belajar</a>
+                    <i class="bi bi-arrow-right"></i>
+                  </span>
+                </div>
+              </div>
+              <div>
+                <img src={introImage} alt="intro-bg" />
+              </div>
+            </div>
+          </Container>
+        </section>
+      </MainSection>
 
       <Footer />
     </>

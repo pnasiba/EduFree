@@ -5,7 +5,7 @@ import logo from "@images/logo.svg";
 const index = () => {
   return (
     <>
-      <header className="bg-[#1C1E53] text-white fixed w-full">
+      <header className="bg-[#1C1E53] text-white fixed w-full z-[99999]">
         <Container>
           <nav className="flex justify-between h-[90px] items-center">
             <a href="./index.jsx">
