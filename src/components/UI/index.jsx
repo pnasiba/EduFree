@@ -1,5 +1,5 @@
-import button from "./button";
-import card from "./card";
-import form from "./form";
+import Button from "./button";
+import Card from "./card";
+import Form from "./form";
 
-export {button, card, form}
+export {Button, Card, Form}

@@ -1,8 +1,12 @@
-import { Header, Footer } from "@components";
+import { Header, Footer, IntroSection, CardSection, AboutUsSection } from "@components";
 import { MainSection, Container } from "@containers";
-import introImage from "@images/intro-bg.png";
+
+import statistic from "@images/statistic.svg";
+import partners from "@images/partners.svg";
+
 
 const App = () => {
+
   return (
     <>
       <Header />
@@ -10,30 +14,28 @@ const App = () => {
       <MainSection>
         <section className="intro pt-[180px] bg-[#1C1E53] pb-[116px]">
           <Container>
-            <div className="intro__wrapper flex items-start gap-[120px]">
-              <div>
-                <h1 className="mb-[32px] w-[595px] text-[42px] text-white font-semibold leading-[160%]">
-                  Bangun dan Wujudkan Cita Bersama EDUFREE
-                </h1>
-                <p className="w-[597px] text-white mb-[62px]">
-                  EDUFREE adalah sebuah layanan kursus dan pelatihan gratis
-                  secara online yang bertujuan untuk membantu kamu meraih cita
-                  di bidang teknologi.
-                </p>
-                <div className="flex gap-[35px] items-center">
-                  <button className="py-[15px] px-[43px] bg-[#FCD980] hover:bg-[#fbca4e] duration-200 text-[#282938] rounded-[5px] font-medium">
-                    Lihat Kursus
-                  </button>
-                  <span className="text-white flex gap-[8px] cursor-pointer">
-                    <a href="#">Lihat Alur Belajar</a>
-                    <i class="bi bi-arrow-right"></i>
-                  </span>
-                </div>
-              </div>
-              <div>
-                <img src={introImage} alt="intro-bg" />
-              </div>
+            <IntroSection />
+          </Container>
+        </section>
+
+        <section className="statistic py-[80px] bg-[#EEF4FA]">
+          <Container>
+            <div className="flex gap-[50px] items-end">
+              <img src={statistic} alt="static" className="w-[400px]" />
+              <img src={partners} alt="static" className="w-[790px]" />
             </div>
+          </Container>
+        </section>
+
+        <section className="card pt-[122px]">
+          <Container>
+            <CardSection />
+          </Container>
+        </section>
+
+        <section className="about-us py-[150px]">
+          <Container>
+            <AboutUsSection/>
           </Container>
         </section>
       </MainSection>
