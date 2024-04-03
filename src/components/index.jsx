@@ -1,8 +1,8 @@
 import Header from "./header"
 import Sidebar from "./sidebar"
-import Footer from "./footer"
+// import Footer from "./footer"
 import IntroSection from "./intro-section";
 import CardSection from "./card-section";
 import AboutUsSection from "./about-us";
 
-export { Header, Sidebar, Footer, IntroSection, CardSection, AboutUsSection };
+export { Header, Sidebar, IntroSection, CardSection, AboutUsSection };

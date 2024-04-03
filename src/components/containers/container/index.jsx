@@ -1,9 +1,9 @@
 import "./style.scss"
 
-const index =({children}) =>{
+const index = ({ children }) => {
   return (
     <div className="container">
-        {children}
+      {children}
     </div>
   )
 }

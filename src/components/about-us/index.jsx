@@ -1,5 +1,5 @@
 import "./style.scss"
-import AboutImage from "@images/aboutImage.png";
+import aboutImage from "@images/aboutImage.png";
 
 
  const index = () => {
@@ -17,7 +17,7 @@ import AboutImage from "@images/aboutImage.png";
           </p>
         </div>
         <div>
-          <img src={AboutImage} alt="aboutImage" />
+          <img src={aboutImage} alt="aboutImage" />
         </div>
       </div>
     </>
