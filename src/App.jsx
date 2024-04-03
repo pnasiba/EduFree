@@ -40,7 +40,7 @@ const App = () => {
         </section>
       </MainSection>
 
-      {/* <Footer /> */}
+      
     </>
   );
 };

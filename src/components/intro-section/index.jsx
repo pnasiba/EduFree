@@ -19,7 +19,7 @@ const index = () => {
             </button>
             <span className="text-white flex gap-[8px] cursor-pointer">
               <a href="#">Lihat Alur Belajar</a>
-              <i class="bi bi-arrow-right"></i>
+              <i className="bi bi-arrow-right"></i>
             </span>
           </div>
         </div>

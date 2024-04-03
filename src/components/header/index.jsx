@@ -30,7 +30,7 @@ const index = () => {
                 </li>
                 <li className="hover:text-[#FCD980] duration-200 cursor-pointer flex items-center gap-[6px]">
                   <a href="#">BLOG</a>
-                  <i class="bi bi-box-arrow-up-right"></i>
+                  <i className="bi bi-box-arrow-up-right"></i>
                 </li>
               </ul>
 
