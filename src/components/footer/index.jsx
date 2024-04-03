@@ -1,10 +1,10 @@
-import { Container } from "@containers";
-import "./style.scss";
+// import { Container } from "@containers";
+// import "./style.scss";
 
-const index = () => {
-    return (
-     <></>
-    );
-};
+// const index = () => {
+//     return (
+//      <></>
+//     );
+// };
 
-export default index;
+// export default index;

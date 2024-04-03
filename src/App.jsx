@@ -1,4 +1,4 @@
-import { Header, Footer, IntroSection, CardSection, AboutUsSection } from "@components";
+import { Header, IntroSection, CardSection, AboutUsSection } from "@components";
 import { MainSection, Container } from "@containers";
 
 import statistic from "@images/statistic.svg";
@@ -40,7 +40,7 @@ const App = () => {
         </section>
       </MainSection>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
