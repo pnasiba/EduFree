@@ -1,5 +1,5 @@
 import "./style.scss"
-import aboutImage from "@images/aboutImage.png";
+import aboutImage from "@images/about-image.png";
 
 
  const index = () => {
