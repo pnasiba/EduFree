@@ -1,12 +1,16 @@
-import { Header, IntroSection, CardSection, AboutUsSection } from "@components";
+import {
+  Header,
+  Footer,
+  IntroSection,
+  CardSection,
+  AboutUsSection,
+} from "@components";
 import { MainSection, Container } from "@containers";
 
 import statistic from "@images/statistic.svg";
 import partners from "@images/partners.svg";
 
-
 const App = () => {
-
   return (
     <>
       <Header />
@@ -35,12 +39,12 @@ const App = () => {
 
         <section className="about-us py-[150px]">
           <Container>
-            <AboutUsSection/>
+            <AboutUsSection />
           </Container>
         </section>
       </MainSection>
 
-      
+      <Footer />
     </>
   );
 };
